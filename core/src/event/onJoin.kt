@@ -42,7 +42,7 @@ fun onJoin(event: JoinEvent) {
         // teleport to exit if inside game world(s)
         plugin.config.exit?.let {
             player.teleport(it)
-            player.setGameMode(Player.GameMode.ADVENTURE)
+            player.setGameMode(Player.GameMode.SURVIVAL)
         }
     }
 }

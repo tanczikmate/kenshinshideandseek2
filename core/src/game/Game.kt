@@ -759,7 +759,7 @@ class Game(val plugin: Khs) {
     fun resetPlayer(player: Player) {
         player.setFlying(false)
         player.setAllowedFlight(false)
-        player.setGameMode(Player.GameMode.ADVENTURE)
+        player.setGameMode(Player.GameMode.SURVIVAL)
         player.getInventory().clearAll()
         player.clearEffects()
         player.satiate()
